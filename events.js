@@ -10,6 +10,12 @@ let changeColorButton = document.querySelector(".change-color");
 let endGameButton = document.querySelector(".end-game");
 let updateScoreButton = document.querySelector(".update-score");
 let growButton = document.querySelector(".grow");
+let endButton = document.querySelector(".end");
+
+endButton.addEventListener("click", function(){
+console.log("end it")
+document.querySelector("body").style.display = "none";
+});
 
 // 1. When jump button is clicked, Mario jumps and coin disappears.  
 
